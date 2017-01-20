@@ -166,10 +166,6 @@ end$$
 delimiter ;
 -- procedure end
 
--- test
-call broneeri(9, 5);
-call broneeri(6, 1);
-
 -- create tables
 create table lend(
 lennu_id int not null,
@@ -213,6 +209,9 @@ insert into klient values('7','Aivar','Riisalu','Eesti','Paide','Vana','28','ei'
 insert into klient values('8','Laine','Jänes','Eesti','Tartu','Uus','17','jah');
 insert into klient values('9','Urmas','Sõõrumaa','Eesti','Tartu','Pikk','36','ei');
 
+-- test
+call broneeri(9, 5);
+call broneeri(6, 1);
 
 
 
